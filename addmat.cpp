@@ -1,3 +1,8 @@
+/*
+PRN - 22070123092
+Addition of Matrix
+*/
+
 #include <iostream>
 using namespace std;
 
@@ -40,3 +45,22 @@ int main()
     }
     return 0;
 }
+
+/*
+OUTPUT:
+Enter number of rows: 2
+Enter number of columns: 2
+Enter elements of 1st matrix: 
+Enter element 11 : 1
+Enter element 12 : 2
+Enter element 21 : 4
+Enter element 22 : 8
+Enter elements of 2nd matrix: 
+Enter element 11 : 45
+Enter element 12 : 65
+Enter element 21 : 78
+Enter element 22 : 95
+Sum of two matrix is: 
+46 67 
+82 103 
+*/
