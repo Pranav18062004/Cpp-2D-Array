@@ -7,6 +7,7 @@ This repository contains examples and explanations of 2D arrays in C++. 2D array
   - [Declaration and Initialization](#declaration-and-initialization)
   - [Accessing Elements](#accessing-elements)
   - [Iterating through a 2D Array](#iterating-through-a-2d-array)
+
 -[Algorithm](#algorithm)
 -[Output](#output)
 
