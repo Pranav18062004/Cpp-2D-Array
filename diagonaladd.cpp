@@ -5,33 +5,36 @@ Diagonal Addition of Matrix
 
 #include <iostream>
 using namespace std;
+ 
 int main()
 {
-    int r, c, arr[50][50], sum[50][50], i, j;
+  int matrix[3][3];
+  int sum_left =0, sum_right = 0;
+  cout << "Enter elements into the matrix \n";
 
-    cout << "Enter number of rows: ";
-    cin >> r;
-
-    cout << "Enter number of columns: ";
-    cin >> c;
-
-    cout << endl << "Enter elements of 1st matrix: " << endl;
-    for(i = 0; i < r; ++i)
-       for(j = 0; j < c; ++j)
-       {
-           cout << "Enter element " << i + 1 << j + 1 << " : ";
-           cin >> arr[i][j];
-       }
- 
-    for(i = 0; i < r; ++i)
-        for(j = 0; j < c; ++j)
-         if (i=j)
-         {
-            sum[i][j] = sum[i][j] + arr[i][j];
+  //Taking input into the Matrix and 
+  //Adding if they are diagonal elements
+  for(int i=0; i<3 ; i++){
+    for(int j=0; j<3; j++){
+      cin >> matrix[i][j];
+      if(i==j)
+        sum_left += matrix[i][j];
+      if((i+j) == 2)
+        sum_right += matrix[i][j];
     }
-     cout << endl << "Sum of diagonal elements is: " << endl;
-            cout << sum[i][j]<<" ";   
-           cout<<"\n";
-    
-    return 0;
+  }
+
+  cout << "Sum of Left Diagonal: "<< sum_left << endl;
+  cout << "Sum of Right Diagonal: "<< sum_right << endl;
+
+  return 0;
 }
+/*
+Output
+Enter elements into the matrix 
+1 3 4
+5 6 7
+8 9 1
+Sum of Left Diagonal: 8
+Sum of Right Diagonal: 18
+*/
