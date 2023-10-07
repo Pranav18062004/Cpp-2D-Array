@@ -1,3 +1,9 @@
+/*
+PRN - 22070123092
+Display Matrix
+*/
+
+
 #include <iostream>
 using namespace std;
 int main() 
@@ -22,3 +28,22 @@ int main()
     }
     return 0;
 }
+
+/*Output
+Enter elements: 
+1
+2
+3
+4
+5
+6
+7
+8
+9
+The array is: 
+1 2 3 
+4 5 6 
+7 8 9 
+*/
+
+
