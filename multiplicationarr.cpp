@@ -1,3 +1,8 @@
+/*
+PRN - 22070123092
+Multiplication of Matrix
+*/
+
 #include <iostream>
 using namespace std;
 
@@ -58,3 +63,26 @@ int main()
 
     return 0;
 }
+
+/*
+Output:
+Enter rows and columns for first matrix: 2 3
+Enter rows and columns for second matrix: 3 2
+Enter elements of matrix 1:
+Enter element a11 : 1
+Enter element a12 : 2
+Enter element a13 : 3
+Enter element a21 : 4
+Enter element a22 : 5
+Enter element a23 : 6
+Enter elements of matrix 2:
+Enter element b11 : 10
+Enter element b12 : 12
+Enter element b21 : 13
+Enter element b22 : 14
+Enter element b31 : 15
+Enter element b32 : 16
+Output Matrix: 
+81 88 
+195 214 
+*/
